@@ -1,1 +1,3 @@
 // npx mocha test/domain/value-objects
+
+git push --set-upstream origin test

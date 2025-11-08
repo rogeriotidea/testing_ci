@@ -1,5 +1,5 @@
-function soma(aa1, bb1) {
-  return aa11 + bb11;
+function soma(a, b) {
+  return a + b;
 }
 
 export default soma;

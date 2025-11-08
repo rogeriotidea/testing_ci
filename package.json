@@ -1,0 +1,28 @@
+{
+  "name": "tdd-factory",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive \"test/**/*.test.js\"",
+    "test:watch": "mocha --watch",
+    "coverage": "c8 mocha --recursive \"test/**/*.test.js\"",
+    "coverage:report": "c8 --reporter=html --check-coverage --lines 90 --branches 80  mocha --recursive \"test/**/*.test.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "c8": "^10.1.3",
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "sinon": "^20.0.0"
+  },
+  "dependencies": {
+    "@sinonjs/referee-sinon": "^12.0.0",
+    "express": "^5.1.0",
+    "jsverify": "^0.8.4",
+    "knuth-shuffle": "^1.0.8"
+  }
+}
